@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.example"
+		module="ejemplosemaforos"
+		revision="0.1.0-SNAPSHOT"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180828201235"/>
+	<dependencies>
+		<module organisation="org.projectlombok" name="lombok">
+			<revision name="1.16.16" status="release" pubdate="20170322192618" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://projectlombok.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="The MIT License" url="https://projectlombok.org/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2601" time="0" location="C:\Users\usuario\.ivy2\cache\org.projectlombok\lombok\ivy-1.16.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/projectlombok/lombok/1.16.16/lombok-1.16.16.pom"/>
+				<caller organisation="com.example" name="ejemplosemaforos" conf="compile, runtime" rev="1.16.16" rev-constraint-default="1.16.16" rev-constraint-dynamic="1.16.16" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="lombok" type="jar" ext="jar" status="no" details="" size="1439298" time="0" location="C:\Users\usuario\.ivy2\cache\org.projectlombok\lombok\jars\lombok-1.16.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/projectlombok/lombok/1.16.16/lombok-1.16.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vavr" name="vavr">
+			<revision name="0.9.2" status="release" pubdate="20171124024950" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://vavr.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6668" time="0" location="C:\Users\usuario\.ivy2\cache\io.vavr\vavr\ivy-0.9.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/vavr/vavr/0.9.2/vavr-0.9.2.pom"/>
+				<caller organisation="com.example" name="ejemplosemaforos" conf="compile, runtime" rev="0.9.2" rev-constraint-default="0.9.2" rev-constraint-dynamic="0.9.2" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="vavr" type="jar" ext="jar" status="no" details="" size="819397" time="0" location="C:\Users\usuario\.ivy2\cache\io.vavr\vavr\jars\vavr-0.9.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/vavr/vavr/0.9.2/vavr-0.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vavr" name="vavr-match">
+			<revision name="0.9.2" status="release" pubdate="20171124024753" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://vavr.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6366" time="0" location="C:\Users\usuario\.ivy2\cache\io.vavr\vavr-match\ivy-0.9.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/vavr/vavr-match/0.9.2/vavr-match-0.9.2.pom"/>
+				<caller organisation="io.vavr" name="vavr" conf="default, compile, runtime, master" rev="0.9.2" rev-constraint-default="0.9.2" rev-constraint-dynamic="0.9.2" callerrev="0.9.2"/>
+				<artifacts>
+					<artifact name="vavr-match" type="jar" ext="jar" status="no" details="" size="26452" time="0" location="C:\Users\usuario\.ivy2\cache\io.vavr\vavr-match\jars\vavr-match-0.9.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/vavr/vavr-match/0.9.2/vavr-match-0.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,9 @@
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/usuario/AppData/Local/Temp/sbt-structure.xml; session clear-all
+testOnly DemostracionTest
+testOnly java.DesmotracionTest
+compile
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/usuario/AppData/Local/Temp/sbt-structure.xml; session clear-all
+compile
+testOnly java.DesmostracionTest
+testOnly DemostracionTest
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/usuario/AppData/Local/Temp/sbt-structure.xml; session clear-all

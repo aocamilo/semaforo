@@ -4,7 +4,7 @@
 		module="ejemplosemaforos$sources"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180829210315"
+		publication="20180926194551"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
